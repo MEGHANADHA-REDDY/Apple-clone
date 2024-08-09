@@ -1,0 +1,278 @@
+*{
+   margin: 0;
+   padding:0;
+   box-sizing: border-box; 
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    min-height:100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #343434;
+    color: #ebe0e0;
+    width: 100%;
+    height:5vh;
+    gap:3vw;
+}
+nav a{
+    text-decoration: none;
+    color:   #ebe0e0;
+}
+nav i{
+    font-size: 1.5vw;
+}
+
+.part-1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width:100%;
+    height:94vh;
+    background-color: #000;
+}
+.text-part-1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#fff;
+    position: absolute;
+    top:10%;
+    gap:1vh;
+}
+.text-part-1 h1{
+    font-size: 4vw;
+    font-family: "Roboto";
+}
+.text-part-1 p{
+    font-size: 2vw;
+    font-family: "Roboto";
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1vw;
+    margin-top: 10px;
+}
+.btn-1{
+    background-color: rgb(0, 86, 236);
+    color:white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    height:5vh;
+    width: 8vw;
+    font-size: 16px;
+}
+.btn-2{
+    background-color: #000;
+    color:rgb(0, 86, 236);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    height:5vh;
+    width: 4vw;
+    border-color:  rgb(0, 86, 236);
+    font-size: 16px;
+}
+.btn-2:hover{
+    background-color: rgb(0, 86, 236);
+    color:white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    height:5vh;
+    width: 4vw;
+    font-size: 16px;
+}
+.part-2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width:100%;
+    height:94vh;
+    background-color: #f5f5f7;
+}
+.text-part-2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#000;
+    position: absolute;
+    margin-top:10px;
+    top:10%;
+    gap:1vh;
+}
+.text-part-2 h1{
+    font-size: 4vw;
+    font-family: "Roboto";
+}
+.text-part-2 p{
+    font-size: 2vw;
+    font-family: "Roboto";
+}
+.btn-3{
+    background-color: rgb(0, 86, 236);
+    color:#fff;
+    border-style: solid;
+    border-width: 0px;
+    border-color:none;
+    border-radius: 24px;
+    height:5vh;
+    width: 8vw;
+    font-size: 16px;
+}
+.btn-4{
+    background-color: #ffffff;
+    color:rgb(0, 86, 236);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    height:5vh;
+    width: 4vw;
+    border-color:  rgb(0, 86, 236);
+    font-size: 16px;
+}
+.btn-4:hover{
+    background-color: rgb(0, 86, 236);
+    color:white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    height:5vh;
+    width: 4vw;
+    font-size: 16px;
+}
+.part-3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width:100%;
+    height:94vh;
+    background-color: #f5f5f7;
+}
+.slider-part{
+    padding:2vh 0vw;
+    width:100%;
+    height:70vh;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide {
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+  }
+  .swiper-1{
+    background-image: url(/apple/assets/689x387.jpg);
+  }
+  .swiper-2{
+    background-image: url(/apple/assets/689x387\ \(1\).jpg);
+  }
+  
+  .swiper-3{
+    background-image: url(/apple/assets/689x387\ \(2\).jpg);
+  }
+  
+  .swiper-4{
+    background-image: url(/apple/assets/689x387\ \(3\).jpg);
+  }
+  .swiper-5{
+    background-image: url(/apple/assets/689x387\ \(4\).jpg);
+  }
+  .swiper-6{
+    background-image: url(/apple/assets/689x387\ \(5\).jpg);
+  }
+  .swiper-7{
+    background-image: url(/apple/assets/689x387\ \(6\).jpg);
+  }
+  .swiper-8{
+    background-image: url(/apple/assets/689x387\ \(7\).jpg);
+  }
+  .bg{
+    background-color: #e3e3e3;
+    background-size: cover;
+  }
+  .bg p{
+    font-size: 10px; 
+    color: #000;
+  }
+  .pa{
+    color:#343434;
+  }
+  .pa:hover {
+
+    color: black;
+    text-decoration: underline;
+}
+.pe{
+    font-weight: bold;
+    color: #000;
+}
+.pr{
+    color:#343434;
+}
+.spa{
+    color:rgb(0, 74, 234);
+    text-decoration: underline;
+}
+.vl {
+    border-left: 1px solid #000;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.pm {
+    margin: 0;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.pm:hover {
+    color: #000;
+    text-decoration: underline;
+}
+.IN{
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    color: #000;
+}
+.IN:hover {
+    color: #000;
+    text-decoration: underline;
+}
